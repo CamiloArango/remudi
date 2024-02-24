@@ -15,7 +15,7 @@ def run(playwright: Playwright) -> None:
     page.get_by_placeholder("  Cédula").click()
     page.get_by_placeholder("  Cédula").press("CapsLock")
     page.get_by_placeholder("  Cédula").click()
-    page.get_by_placeholder("  Cédula").fill("E-8-197382")
+    page.get_by_placeholder("  Cédula").fill("")
     page.get_by_placeholder("  Contraseña").click()
     page.get_by_placeholder("  Contraseña").press("CapsLock")
     page.get_by_placeholder("  Contraseña").fill("")
